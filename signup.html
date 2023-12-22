@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="header">
+    <h1 class="header-text">Register</h1>
+  </div>
+
+  <div class="navbar" id="navbar">
+    <div class="burger-icon" id="burgerIcon">&#9776;</div>
+    <a href="hub.html" class="nav-link" id="hubLink">Hub</a>
+    <a href="report.html" class="nav-link" id="mreportLink">Make Report</a>
+    <a href="cameras.html" class="nav-link" id="camerasLink">Cameras</a>
+    <a href="login.html" class="nav-link" id="loginLink">Login</a>
+    <a href="profile.html" class="nav-link profile-link" id="profileLink" style="display: none;">My Profile</a>
+    <a href="settings.html" class="nav-link profile-link" id="settingsLink" style="display: none;">My Settings</a>
+    <a href="logout.html" class="nav-link profile-link" id="logoutLink" style="display: none;">Logout</a>
+    <a href="signup.html" class="nav-link" id="registerlink">Register</a>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="close-button" onclick="toggleMobileMenu()">✕</div>
+    <a href="hub.html" class="nav-link">Hub</a>
+    <a href="report.html" class="nav-link">Make Report</a>
+    <a href="cameras.html" class="nav-link">Cameras</a>
+    <a href="login.html" class="nav-link">Login</a>
+    <a href="profile.html" class="nav-link profile-link" style="display: none;">My Profile</a>
+    <a href="settings.html" class="nav-link profile-link" style="display: none;">My Settings</a>
+    <a href="logout.html" class="nav-link profile-link" style="display: none;">Logout</a>
+    <a href="signup.html" class="nav-link">Register</a>
+  </div>
+
+  <div class="post-container">
+    <div class="post">
+      <div class="post-header">Admin Team at 22:48 on Dec 20, 2023</div>
+      <hr>
+      <div class="post-body">
+	<b>Admin Team Notice</b><br>
+        We are unable to process accounts signups at this time contact support for help<br><br>
+<b>adminteam@butegardenswest.com</b> or call <b>0208 098 2552</b> ext <b>553202</b>
+
+      </div><br>
+      <button class="like-button1" onclick="likePost()">Like</button>
+
+      <span class="like-count">Hidden</span>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
